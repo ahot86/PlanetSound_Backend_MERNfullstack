@@ -39,6 +39,7 @@ app.use(function(req, res, next){
     next();
 });
 
+
 app.use('/api/dj', djsRoute);
 app.use('/api/cliente', clienteRoute);
 
